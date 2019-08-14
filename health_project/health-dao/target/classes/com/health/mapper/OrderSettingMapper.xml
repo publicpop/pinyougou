@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.health.mapper.OrderSettingMapper">
+
+    <!--添加预约设置-->
+    <insert id="add" parameterType="com.health.pojo.OrderSetting">
+        insert INTO t_ordersetting values (NULL ,#{orderDate},#{number},#{reservations})
+    </insert>
+
+    <!--更新预约设置-->
+    <update id="update" parameterType="com.health.pojo.OrderSetting">
+        UPDATE t_ordersetting SET number = #{number} where orderDate = #{orderDate}
+    </update>
+
+    <!--查询预约设置-->
+    <select id="findCountByOrderDate" parameterType="java.util.Date" resultType="long">
+        SELECT orderDate from t_ordersetting where orderDate = #{orderDate}
+    </select>
+    <!--查询当月预约信息-->
+    <select id="findOrderSettingByMonth" parameterType="java.lang.String" resultType="com.health.pojo.OrderSetting">
+        SELECT * from t_ordersetting where convert(orderDate,char) LIKE #{date}
+    </select>
+    <!--查询当天预约设置-->
+    <select id="findOrderSettingByDate" parameterType="java.util.Date" resultType="com.health.pojo.OrderSetting">
+        SELECT * from t_ordersetting where orderDate = #{date}
+    </select>
+
+    <!--根据日期统计到诊数-->
+    <select id="selectDate" resultType="string">
+        select convert(orderDate,char) AS orderDate from t_ordersetting WHERE orderDate >= #{date} ORDER BY orderDate  ASC
+    </select>
+
+    <!--查询设置预约人数-->
+    <select id="findByNumber" parameterType="string" resultType="int">
+        SELECT number FROM t_ordersetting WHERE CONVERT(orderDate,CHAR) = #{date}
+    </select>
+
+    <!--查询已预约人数-->
+    <select id="findByReservations" parameterType="string" resultType="int">
+        SELECT reservations FROM t_ordersetting WHERE CONVERT(orderDate,CHAR) = #{date}
+    </select>
+
+</mapper>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.health.mapper.SetmealAndCheckGroup">
+    <select id="searchSetmealIdByCheckGroupId" parameterType="java.lang.Integer" resultType="java.lang.Integer">
+        SELECT checkgroup_id from t_setmeal_checkgroup WHERE setmeal_id = #{id}
+    </select>
+
+    <insert id="saveSetmealIdAndCheckGroupId" parameterType="java.lang.Integer">
+        INSERT INTO t_setmeal_checkgroup VALUES (#{arg0}, #{arg1})
+    </insert>
+
+    <delete id="deleteSetmealIdByCheckGroupId" parameterType="java.lang.Integer">
+        DELETE from t_setmeal_checkgroup WHERE setmeal_id = #{id}
+    </delete>
+</mapper>

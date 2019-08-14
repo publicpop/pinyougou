@@ -1,0 +1,4 @@
+com\health\weixin\Controller\ValidateCodeConctroller.class
+com\health\weixin\Controller\SetmealController.class
+com\health\weixin\Controller\LoginConctroller.class
+com\health\weixin\Controller\OrderController.class

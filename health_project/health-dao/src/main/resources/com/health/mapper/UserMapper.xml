@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.health.mapper.UserMapper">
+
+    <!--根据用户名查询用户-->
+    <select id="findUserByUsername" parameterType="string" resultType="com.health.pojo.User">
+        SELECT * from t_user WHERE username = #{username}
+    </select>
+
+    <!--注册用户-->
+    <insert id="register" parameterType="com.health.pojo.User">
+        <selectKey keyProperty="id" order="AFTER" resultType="int">
+            SELECT LAST_INSERT_ID()
+        </selectKey>
+        INSERT INTO t_user VALUES (null,null,null,#{username},#{password},null,null,null)
+    </insert>
+
+    <!--保存用户与角色的映射关系-->
+    <insert id="addUserIdAndRoleId" parameterType="int">
+        INSERT INTO t_user_role VALUES (#{arg0},#{arg1})
+    </insert>
+
+    <!--根据时间查询会员数量-->
+    <select id="findUserByDate" parameterType="string" resultType="java.lang.Integer">
+        SELECT count(*) from t_member where CONVERT(regTime,char) LIKE #{date}
+    </select>
+
+</mapper>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.health.mapper.CheckitemAndCheckGroup">
+    <select id="searchCheckitemIdByCheckGroupId" parameterType="java.lang.Integer" resultType="java.lang.Integer">
+        SELECT checkitem_id from t_checkgroup_checkitem WHERE checkgroup_id = #{id}
+    </select>
+
+    <insert id="saveCheckItemIdAndCheckGroupId" parameterType="java.lang.Integer">
+        INSERT INTO t_checkgroup_checkitem VALUES (#{param1}, #{param2})
+    </insert>
+
+    <delete id="deleteCheckitemIdByCheckGroupId" parameterType="java.lang.Integer">
+        DELETE from t_checkgroup_checkitem WHERE checkgroup_id = #{id}
+    </delete>
+</mapper>

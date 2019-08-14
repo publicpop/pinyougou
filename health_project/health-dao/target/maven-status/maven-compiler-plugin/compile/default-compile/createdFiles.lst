@@ -1,0 +1,13 @@
+com\health\mapper\TCheckitemMapper.class
+com\health\mapper\PermissionMapper.class
+com\health\mapper\UserMapper.class
+com\health\mapper\OrderDao.class
+com\health\mapper\CheckitemAndCheckGroup.class
+com\health\mapper\SetmealAndCheckGroup.class
+com\health\mapper\MenuMapper.class
+com\health\mapper\OrderSettingMapper.class
+com\health\mapper\RoleMapper.class
+com\health\mapper\MemberDao.class
+com\health\mapper\TSetmealMapper.class
+com\health\mapper\OrderSettingDao.class
+com\health\mapper\TCheckgroupMapper.class

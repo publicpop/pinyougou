@@ -1,0 +1,13 @@
+com\health\service\OrderSettingService.class
+com\health\service\CheckgroupService.class
+com\health\service\SetmealAndCheckGroupService.class
+com\health\service\LoginUserService.class
+com\health\service\SetmealService.class
+com\health\service\LoginService.class
+com\health\service\MenuService.class
+com\health\service\ReportService.class
+com\health\service\CheckitemService.class
+com\health\service\RegisterService.class
+com\health\service\OrderService.class
+com\health\service\CheckitemAndCheckGroupService.class
+com\health\service\UserService.class

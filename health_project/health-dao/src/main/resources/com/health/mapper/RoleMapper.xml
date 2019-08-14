@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.health.mapper.RoleMapper" >
+
+   <!--根据用户id查询用户角色信息-->
+  <select id="findRoleByUserId" parameterType="int" resultType="com.health.pojo.Role">
+      SELECT t_role.* from t_role,t_user_role WHERE id = role_id and user_id = #{id}
+  </select>
+
+</mapper>

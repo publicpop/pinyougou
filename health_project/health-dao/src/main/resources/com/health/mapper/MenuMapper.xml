@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.health.mapper.MenuMapper">
+
+
+    <!--根据父级菜单id查询父级菜单-->
+    <select id="findPMenuById" parameterType="int" resultType="com.health.pojo.Menu">
+        SELECT m.* FROM t_role_menu r,t_menu m WHERE id = menu_id AND parentMenuId = id AND role_id = #{id}
+    </select>
+
+
+    <!--根据父级菜单id查询子级菜单-->
+    <select id="findCmenuByPid" parameterType="int" resultType="com.health.pojo.Menu">
+        SELECT * from t_menu WHERE parentMenuId != id AND parentMenuId = #{id}
+    </select>
+
+</mapper>

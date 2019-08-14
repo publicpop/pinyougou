@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dds" />
+        <module name="health-common" />
+        <module name="health-dao" />
+        <module name="health-interface" />
+        <module name="health-jobs" />
+        <module name="health-pojo" />
+        <module name="health-service" />
+        <module name="health-web" />
+        <module name="health-weixin-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="dds" target="1.8" />
+      <module name="health" target="1.8" />
+      <module name="health-common" target="1.8" />
+      <module name="health-dao" target="1.8" />
+      <module name="health-interface" target="1.8" />
+      <module name="health-jobs" target="1.8" />
+      <module name="health-pojo" target="1.8" />
+      <module name="health-service" target="1.8" />
+      <module name="health-web" target="1.8" />
+      <module name="health-weixin-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

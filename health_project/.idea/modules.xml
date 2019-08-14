@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://H:/generitor/dds.iml" filepath="H:/generitor/dds.iml" />
+      <module fileurl="file://$PROJECT_DIR$/health.iml" filepath="$PROJECT_DIR$/health.iml" />
+      <module fileurl="file://$PROJECT_DIR$/health-common/health-common.iml" filepath="$PROJECT_DIR$/health-common/health-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/health-dao/health-dao.iml" filepath="$PROJECT_DIR$/health-dao/health-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/health-interface/health-interface.iml" filepath="$PROJECT_DIR$/health-interface/health-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/health-jobs/health-jobs.iml" filepath="$PROJECT_DIR$/health-jobs/health-jobs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/health-pojo/health-pojo.iml" filepath="$PROJECT_DIR$/health-pojo/health-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/health-service/health-service.iml" filepath="$PROJECT_DIR$/health-service/health-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/health-web/health-web.iml" filepath="$PROJECT_DIR$/health-web/health-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/health-weixin-web/health-weixin-web.iml" filepath="$PROJECT_DIR$/health-weixin-web/health-weixin-web.iml" />
+    </modules>
+  </component>
+</project>

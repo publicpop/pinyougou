@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- 页面meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>传智健康</title>
+    <meta name="description" content="传智健康">
+    <meta name="keywords" content="传智健康">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="plugins/elementui/index.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body class="hold-transition skin-purple sidebar-mini">
+<div id="app">
+    <div class="login-container">
+        <div class="loginBox">
+            <form label-position="left">
+                <div class="title-container">
+                    <div class="logoInfo clearfix">
+                        <em class="logo"></em>
+                    </div>
+                </div>
+                <div>
+                        <span class="svg-container svg-container_login">
+                          <span class="user"></span>
+                        </span>
+                    <input type="text" v-model="formData.username" placeholder="请输入用户名"/>
+                </div>
+                <div>
+                        <span class="svg-container">
+                          <span class="username"></span>
+                        </span>
+                    <input type="password" v-model="formData.password" placeholder="请输入密码"/>
+                </div>
+                <div>
+                        <span class="svg-container">
+                          <span class="username"></span>
+                        </span>
+                    <input type="password" v-model="pwd" placeholder="请再次输入密码"/>
+                </div>
+                <div>
+                        <span class="svg-container">
+                          <span class="username"></span>
+                        </span>
+                    <input type="text" v-model="formData.passCode" placeholder="请输入口令"/>
+                </div>
+                <input type="button" @click="register()" style="width:100%;margin-bottom:30px;" value="注册"/>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+<!-- 引入组件库 -->
+<script src="js/vue.js"></script>
+<script src="plugins/elementui/index.js"></script>
+<script src="./js/axios-0.18.0.js"></script>
+<script>
+    var vue = new Vue({
+        el: '#app',
+        data: {
+            passCode:null,
+            pwd:null,
+            formData: {
+                username:'',
+                password:'',
+                passCode:''
+            }
+        },
+        methods: {
+            register(){
+                if(this.formData.username == null){
+                    this.$message.error('用户名不能为空');
+                    return;
+                }
+                if(this.formData.password==null){
+                    this.$message.error('密码不能为空');
+                    return;
+                }
+                if(this.pwd == null){
+                    this.$message.error('再次输入密码不能为空');
+                    return;
+                }
+                // if(passCode==null){
+                //     this.$message.error('指令不能为空');
+                //     return;
+                // }
+                if(this.formData.password != this.pwd){
+                    this.$message.error('两次密码不一致请重新输入');
+                    return;
+                }
+                axios.post('/register/regist.do',this.formData).then(response=>{
+                    if(response.data.flag){
+                        this.$message({
+                            message:"注册成功",
+                            type:'success'
+                        })
+                        window.location.href = "/login.html"
+                    }else {
+                        this.$message.error("注册失败")
+                    }
+                })
+            }
+        }
+    })
+</script>
+</html>
