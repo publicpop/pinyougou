@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="ear" name="ping-order-service:ear">
+    <output-path>$PROJECT_DIR$/pinyou/ping-order-service/target</output-path>
+    <root id="archive" name="ping-order-service-1.0-SNAPSHOT.ear" />
+  </artifact>
+</component>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ping-seckill-interface:war">
+    <output-path>$PROJECT_DIR$/pinyou/ping-seckill-interface/target</output-path>
+    <root id="archive" name="ping-seckill-interface-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="ping-seckill-interface:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ping-cart-interface" />
+        <module name="ping-cart-service" />
+        <module name="ping-cart-web" />
+        <module name="ping-common" />
+        <module name="ping-content-interface" />
+        <module name="ping-content-service" />
+        <module name="ping-dao" />
+        <module name="ping-manager-web" />
+        <module name="ping-order-interface" />
+        <module name="ping-order-service" />
+        <module name="ping-page-interface" />
+        <module name="ping-page-service" />
+        <module name="ping-page-web" />
+        <module name="ping-pay-interface" />
+        <module name="ping-pay-service" />
+        <module name="ping-pojo" />
+        <module name="ping-portal-web" />
+        <module name="ping-search-interface" />
+        <module name="ping-search-service" />
+        <module name="ping-search-web" />
+        <module name="ping-seckill-interface" />
+        <module name="ping-seckill-service" />
+        <module name="ping-seckill-web" />
+        <module name="ping-sellergoods-interface" />
+        <module name="ping-sellergoods-service" />
+        <module name="ping-shop-web" />
+        <module name="ping-solr-util" />
+        <module name="ping-task-service" />
+        <module name="ping-user-interface" />
+        <module name="ping-user-service" />
+        <module name="ping-user-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ping-cart-interface" target="1.8" />
+      <module name="ping-cart-service" target="1.8" />
+      <module name="ping-cart-web" target="1.8" />
+      <module name="ping-common" target="1.8" />
+      <module name="ping-content-interface" target="1.8" />
+      <module name="ping-content-service" target="1.8" />
+      <module name="ping-dao" target="1.8" />
+      <module name="ping-manager-web" target="1.8" />
+      <module name="ping-order-interface" target="1.8" />
+      <module name="ping-order-service" target="1.8" />
+      <module name="ping-page-interface" target="1.8" />
+      <module name="ping-page-service" target="1.8" />
+      <module name="ping-page-web" target="1.8" />
+      <module name="ping-pay-interface" target="1.8" />
+      <module name="ping-pay-service" target="1.8" />
+      <module name="ping-pojo" target="1.8" />
+      <module name="ping-portal-web" target="1.8" />
+      <module name="ping-search-interface" target="1.8" />
+      <module name="ping-search-service" target="1.8" />
+      <module name="ping-search-web" target="1.8" />
+      <module name="ping-seckill-interface" target="1.8" />
+      <module name="ping-seckill-service" target="1.8" />
+      <module name="ping-seckill-web" target="1.8" />
+      <module name="ping-sellergoods-interface" target="1.8" />
+      <module name="ping-sellergoods-service" target="1.8" />
+      <module name="ping-shop-web" target="1.8" />
+      <module name="ping-solr-util" target="1.8" />
+      <module name="ping-task-service" target="1.8" />
+      <module name="ping-user-interface" target="1.8" />
+      <module name="ping-user-service" target="1.8" />
+      <module name="ping-user-web" target="1.8" />
+      <module name="pinyou" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

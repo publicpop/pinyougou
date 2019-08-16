@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ping-order-service:war">
+    <output-path>$PROJECT_DIR$/pinyou/ping-order-service/target</output-path>
+    <root id="archive" name="ping-order-service-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="ping-order-service:war exploded" />
+    </root>
+  </artifact>
+</component>

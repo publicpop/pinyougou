@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ping-content-service:war">
+    <output-path>$PROJECT_DIR$/pinyou/ping-content-service/target</output-path>
+    <root id="archive" name="ping-content-service-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="ping-content-service:war exploded" />
+    </root>
+  </artifact>
+</component>

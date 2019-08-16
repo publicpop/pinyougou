@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/pinyou/ping-cart-interface/ping-cart-interface.iml" filepath="$PROJECT_DIR$/pinyou/ping-cart-interface/ping-cart-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pinyou/ping-cart-service/ping-cart-service.iml" filepath="$PROJECT_DIR$/pinyou/ping-cart-service/ping-cart-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pinyou/ping-cart-web/ping-cart-web.iml" filepath="$PROJECT_DIR$/pinyou/ping-cart-web/ping-cart-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pinyou/ping-common/ping-common.iml" filepath="$PROJECT_DIR$/pinyou/ping-common/ping-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pinyou/ping-content-interface/ping-content-interface.iml" filepath="$PROJECT_DIR$/pinyou/ping-content-interface/ping-content-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pinyou/ping-content-service/ping-content-service.iml" filepath="$PROJECT_DIR$/pinyou/ping-content-service/ping-content-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pinyou/ping-dao/ping-dao.iml" filepath="$PROJECT_DIR$/pinyou/ping-dao/ping-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pinyou/ping-manager-web/ping-manager-web.iml" filepath="$PROJECT_DIR$/pinyou/ping-manager-web/ping-manager-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pinyou/ping-order-interface/ping-order-interface.iml" filepath="$PROJECT_DIR$/pinyou/ping-order-interface/ping-order-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pinyou/ping-order-service/ping-order-service.iml" filepath="$PROJECT_DIR$/pinyou/ping-order-service/ping-order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pinyou/ping-page-interface/ping-page-interface.iml" filepath="$PROJECT_DIR$/pinyou/ping-page-interface/ping-page-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pinyou/ping-page-service/ping-page-service.iml" filepath="$PROJECT_DIR$/pinyou/ping-page-service/ping-page-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pinyou/ping-page-web/ping-page-web.iml" filepath="$PROJECT_DIR$/pinyou/ping-page-web/ping-page-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pinyou/ping-pay-interface/ping-pay-interface.iml" filepath="$PROJECT_DIR$/pinyou/ping-pay-interface/ping-pay-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pinyou/ping-pay-service/ping-pay-service.iml" filepath="$PROJECT_DIR$/pinyou/ping-pay-service/ping-pay-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pinyou/ping-pojo/ping-pojo.iml" filepath="$PROJECT_DIR$/pinyou/ping-pojo/ping-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pinyou/ping-portal-web/ping-portal-web.iml" filepath="$PROJECT_DIR$/pinyou/ping-portal-web/ping-portal-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pinyou/ping-search-interface/ping-search-interface.iml" filepath="$PROJECT_DIR$/pinyou/ping-search-interface/ping-search-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pinyou/ping-search-service/ping-search-service.iml" filepath="$PROJECT_DIR$/pinyou/ping-search-service/ping-search-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pinyou/ping-search-web/ping-search-web.iml" filepath="$PROJECT_DIR$/pinyou/ping-search-web/ping-search-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pinyou/ping-seckill-interface/ping-seckill-interface.iml" filepath="$PROJECT_DIR$/pinyou/ping-seckill-interface/ping-seckill-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pinyou/ping-seckill-service/ping-seckill-service.iml" filepath="$PROJECT_DIR$/pinyou/ping-seckill-service/ping-seckill-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pinyou/ping-seckill-web/ping-seckill-web.iml" filepath="$PROJECT_DIR$/pinyou/ping-seckill-web/ping-seckill-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pinyou/ping-sellergoods-interface/ping-sellergoods-interface.iml" filepath="$PROJECT_DIR$/pinyou/ping-sellergoods-interface/ping-sellergoods-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pinyou/ping-sellergoods-service/ping-sellergoods-service.iml" filepath="$PROJECT_DIR$/pinyou/ping-sellergoods-service/ping-sellergoods-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pinyou/ping-shop-web/ping-shop-web.iml" filepath="$PROJECT_DIR$/pinyou/ping-shop-web/ping-shop-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pinyou/ping-solr-util/ping-solr-util.iml" filepath="$PROJECT_DIR$/pinyou/ping-solr-util/ping-solr-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pinyou/ping-task-service/ping-task-service.iml" filepath="$PROJECT_DIR$/pinyou/ping-task-service/ping-task-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pinyou/ping-user-interface/ping-user-interface.iml" filepath="$PROJECT_DIR$/pinyou/ping-user-interface/ping-user-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pinyou/ping-user-service/ping-user-service.iml" filepath="$PROJECT_DIR$/pinyou/ping-user-service/ping-user-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pinyou/ping-user-web/ping-user-web.iml" filepath="$PROJECT_DIR$/pinyou/ping-user-web/ping-user-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pinyou/pinyou.iml" filepath="$PROJECT_DIR$/pinyou/pinyou.iml" />
+    </modules>
+  </component>
+</project>

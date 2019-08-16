@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="javaeeApplication" url="file://$PROJECT_DIR$/pinyou/ping-order-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyou/ping-cart-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyou/ping-cart-web" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyou/ping-content-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyou/ping-manager-web" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyou/ping-order-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyou/ping-page-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyou/ping-page-web" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyou/ping-pay-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyou/ping-portal-web" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyou/ping-search-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyou/ping-search-web" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyou/ping-seckill-interface" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyou/ping-seckill-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyou/ping-seckill-web" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyou/ping-sellergoods-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyou/ping-shop-web" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyou/ping-task-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyou/ping-user-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyou/ping-user-web" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pinyou/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

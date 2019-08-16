@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ping-cart-web:war">
+    <output-path>$PROJECT_DIR$/pinyou/ping-cart-web/target</output-path>
+    <root id="archive" name="ping-cart-web-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="ping-cart-web:war exploded" />
+    </root>
+  </artifact>
+</component>
