@@ -5,5 +5,6 @@ com\health\Controller\RegisterController.class
 com\health\Controller\LoginController.class
 com\health\Controller\OrderSettingControler.class
 com\health\Controller\SetmealController.class
+com\health\Controller\orderCntroller.class
 com\health\Controller\RepostController.class
 com\health\Controller\UserController.class
